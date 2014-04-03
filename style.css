@@ -1,0 +1,23 @@
+.frame {
+    height: 5em;
+    width: 20em;
+    color: #630053;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+.dot {
+    background-color: #23e021;
+    height: 2em;
+    width: 2em;
+    
+}
+
+#header {
+    font-size: 30px;
+    color: #930053;
+}
+
+body {
+    background-color: #3080FF;
+}
