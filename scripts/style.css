@@ -1,8 +1,14 @@
+div {
+    border-radius: 5px;
+    border-color: #30405E;
+	padding-top: 5px;
+}
+
 .frame {
     height: 5em;
     width: 20em;
     color: #630053;
-    font-size: 120px;
+    font-size: 12em;
     font-family: sans-serif;
 }
 
@@ -10,7 +16,7 @@
     background-color: #23e021;
     height: 2em;
     width: 2em;
-    
+
 }
 
 #header {
@@ -20,4 +26,20 @@
 
 body {
     background-color: #3080FF;
+}
+
+#countdown {
+	position: relative;
+	height: 50px;
+	background-color: #668284;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
 }
