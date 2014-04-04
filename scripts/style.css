@@ -8,7 +8,7 @@ div {
     height: 5em;
     width: 20em;
     color: #630053;
-    font-size: 12em;
+    font-size: 24px;
     font-family: sans-serif;
 }
 
@@ -16,21 +16,21 @@ div {
     background-color: #23e021;
     height: 2em;
     width: 2em;
-
 }
 
 #header {
-    font-size: 30px;
-    color: #930053;
-}
-
-body {
-    background-color: #3080FF;
+	z-index: 1;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
 }
 
 #countdown {
 	position: relative;
 	height: 50px;
+	width: 97.5%;
 	background-color: #668284;
 	clear: both;
 	font-family: Verdana, sans-serif;
@@ -43,3 +43,8 @@ body {
 	position: relative;
 	padding-top: 15px;
 }
+
+body {
+    background-color: #308080;
+}
+
