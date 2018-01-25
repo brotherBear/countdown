@@ -1,5 +1,5 @@
 
-    CountDownTimer('06/02/2014 10:1 AM', 'countdown');
+    CountDownTimer('06/12/2018 04:00 PM', 'countdown');
 
     function CountDownTimer(dt, id)
     {
@@ -28,9 +28,9 @@
 
             var displaytext = days + ' days ';
             displaytext += hours + ' hours ';
-            displaytext += minutes + ' mins '; 
+            displaytext += minutes + ' mins ';
             displaytext += seconds + ' secs';
-            
+
             document.getElementById('header').innerHTML = 'Countdown to: <br/>' + end;
             document.getElementById(id).innerHTML = displaytext;
         }
